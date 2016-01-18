@@ -4,11 +4,12 @@
     Author     : Chase
 --%>
 
-<%@page import="java.util.Properties"%>
-<%@page import="java.util.TimeZone"%>
-<%@page import="java.text.SimpleDateFormat"%>
+<jsp:directive.page import="java.util.Properties" />
+<jsp:directive.page import="java.util.TimeZone"/>
+<jsp:directive.page import="java.text.SimpleDateFormat"/>
 <%@page import="java.util.Date"%>
 <%@page import="java.util.*"%>
+<%@page import="java.text.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
