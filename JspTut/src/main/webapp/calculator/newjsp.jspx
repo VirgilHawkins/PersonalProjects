@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Document   : newjsp
+    Created on : Jan 24, 2016, 1:34:02 PM
+    Author     : Chase
+-->
+
+    <jsp:directive.page contentType="text/html" pageEncoding="UTF-8"/>
+    <jsp:directive.page import="java.util.*"/>
+
+    <!-- any content can be specified here, e.g.: -->
+    <jsp:element name="text">
+        <jsp:attribute name="lang">EN</jsp:attribute>
+        <jsp:body>
+            <jsp:scriptlet>
+                List<Integer> list = new ArrayList();
+                int[][] array = new int[3][3];
+                for(int i = 1; i < 3; i++){
+                    for(int j = 0; j < 3; j++){
+                        array
+                    }
+                }
+            </jsp:scriptlet>
+        </jsp:body>
+    </jsp:element>
+
+</jsp:root>
